@@ -9,7 +9,7 @@ namespace ctech9.SquawkCodeGenerator {
             Random rand = new Random();
             ConsoleKeyInfo userInput;
             ConsoleKeyInfo userInput2;
-            Console.WriteLine("Press R to reset list. \nPress Q to quit the program. \nPress ");
+            Console.WriteLine("Press R to reset list. \nPress Q to quit the program. \nPress any key to generate another code. \n");
             while (true) {
                 for (int i = 0; i < 4; i++) {
                     code[i] = rand.Next(0,7);
