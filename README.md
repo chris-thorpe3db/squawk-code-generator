@@ -5,8 +5,8 @@ A transponder code, more commonly known as a "Squawk code" is a 4-digit number w
 ## Features
 
 The program regenerates the code if it:
-    Is equal to 7500, 7600, or 7700
-    Has already beed generated in program runtime to avoid redundancy
+ - Is equal to 7500, 7600, or 7700
+ - Has already beed generated in program runtime to avoid    redundancy
 
 The program allows the user to clear the list from inside the program using a `Console.ReadKey()` method and a case switch. The program also uses this case switch to allow the user to stop execution from inside the program.
 
@@ -26,18 +26,18 @@ This software is licensed under a GNU Affero GPL v3.0.
 
 This means that you can:
 
-    Sell this program
-    Modify it
-    Distribute it
-    Use it for Patent Use
-    Use it for Private use
+ - Sell this program
+ - Modify it
+ - Distribute it
+ - Use it for Patent Use
+ - Use it for Private use
 
 As long as you:
 
-    Add a copyright and licence notice
-    State changes made
-    Disclose the source (this repo)
-    Use the same license (GNU Affero GPL v3.0)
+ - Add a copyright and licence notice
+ - State changes made
+ - Disclose the source (this repo)
+ - Use the same license (GNU Affero GPL v3.0)
 
 This software comes with absolutely no liability or warranty.
 
