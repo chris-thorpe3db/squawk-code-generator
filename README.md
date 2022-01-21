@@ -19,3 +19,28 @@ This program requires the .NET 6.0 Runtime/SDK, as well as a computer capable of
 1. Run `git clone https://github.com/ctech9/squawk-code-generator` and navigate to the root directory.
 
 2. Open a terminal and run `dotnet run`.
+
+## Licensing
+
+This software is licensed under a GNU Affero GPL v3.0.
+
+This means that you can:
+
+    Sell this program
+    Modify it
+    Distribute it
+    Use it for Patent Use
+    Use it for Private use
+
+As long as you:
+
+    Add a copyright and licence notice
+    State changes made
+    Disclose the source (this repo)
+    Use the same license (GNU Affero GPL v3.0)
+
+This software comes with absolutely no liability or warranty.
+
+
+
+This repository and all contents are Copyright © 2022 Christopher Thorpe.
