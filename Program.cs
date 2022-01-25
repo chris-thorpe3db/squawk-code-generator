@@ -15,7 +15,7 @@ namespace ctech9.SquawkCodeGenerator {
                     code[i] = rand.Next(0,7);
                 }
                 codeToString = string.Join("", code);
-                if (codeToString  == "7500" || codeToString == "7600" || codeToString == "7700" || prevCodes.Contains(codeToString)) continue;
+                if (codeToString  == "7500" || codeToString == "7600" || codeToString == "7700" || codeToString == "1200" || prevCodes.Contains(codeToString)) continue;
                 Console.WriteLine(codeToString);
                 userInput = Console.ReadKey();
 
