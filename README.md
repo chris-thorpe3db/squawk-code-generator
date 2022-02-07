@@ -6,7 +6,7 @@ A transponder code, more commonly known as a "Squawk code" is a 4-digit number w
 
 The program regenerates the code if it:
  - Is equal to 7500, 7600, or 7700
- - Has already beed generated in program runtime to avoid    redundancy
+ - Has already been generated in program runtime to avoid redundancy
 
 The program allows the user to clear the list from inside the program using a `Console.ReadKey()` method and a case switch. The program also uses this case switch to allow the user to stop execution from inside the program.
 
