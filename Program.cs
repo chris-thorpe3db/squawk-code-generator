@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ctech9.SquawkCodeGenerator {
     class Program {
@@ -16,6 +17,7 @@ namespace ctech9.SquawkCodeGenerator {
                 }
                 codeToString = string.Join("", code);
                 if (codeToString  == "7500" || codeToString == "7600" || codeToString == "7700" || codeToString == "1200" || prevCodes.Contains(codeToString)) continue;
+                prevCodes.Add(codeToString);
                 Console.WriteLine(codeToString);
                 userInput = Console.ReadKey();
 
