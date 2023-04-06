@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ctech9.SquawkCodeGenerator {
+namespace SquawkCodeGenerator {
     class Program {
         static void Main(string[] args) {
             // Generate variables for code generation/memory
@@ -37,7 +37,7 @@ namespace ctech9.SquawkCodeGenerator {
 
                 switch (userInput.Key) {
                     
-                    // Clear list on R break case switch
+                    // Clear list on R, break case switch
                     case ConsoleKey.R:
                         prevCodes.Clear();
                         break;
