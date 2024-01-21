@@ -1,6 +1,6 @@
 # C# Squawk Code Generator
 
-A transponder code, more commonly known as a "Squawk code" is a 4-digit number whose digits range from 0-7 whose purpose is to identify aircraft flying in an airspace. This program uses the .NET built-in pseudo-random number generator to generate these codes. ***THIS PROGRAM IS FOR SIMULATION USE ONLY!***
+A transponder code, also known as a "Squawk code" is a 4-digit number whose digits range from 0-7 whose purpose is to identify aircraft flying in an airspace. This program uses the .NET built-in pseudo-random number generator to generate these codes. ***THIS PROGRAM IS FOR SIMULATION USE ONLY!***
 
 ## Features
 
@@ -22,7 +22,7 @@ This program requires the .NET 6.0 Runtime/SDK, as well as a computer capable of
 
 ## Licensing
 
-This software is licensed under a GNU Affero GPL v3.0.
+This software is licensed under a GNU GPL v3.0.
 
 This means that you can:
 
@@ -37,10 +37,10 @@ As long as you:
  - Add a copyright and licence notice
  - State changes made
  - Disclose the source (this repo)
- - Use the same license (GNU Affero GPL v3.0)
+ - Use the same license (GNU GPL v3.0)
 
 This software comes with absolutely no liability or warranty.
 
 
 
-This repository and all contents are Copyright © 2022 Christopher Thorpe.
+This repository and all contents are Copyright © 2022-2024 Christopher Thorpe.
